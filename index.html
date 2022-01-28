@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Techielobby</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!---preloader--->
+  <div class="app">
+  <section class="preloader">
+    <img src="Images/Techie.png" id="logo">
+    <div class="ctawrapper" id="ctas">
+    <button class="logincta" id="loader">
+      Login
+    </button>
+    <button class="signupcta">Signup</button>
+   <h5 class="chargetext">Your tech journey starts here...</h5>
+    </div>
+    
+  </section>
+  <section class="loginformWrapper" id="loginformWrapper">
+          <p id="alert"></p>
+    <form id="loginform" action="dashboard.html" onsubmit="return checkmail()" name="loginform">
+
+      <div class="inputcontainer">
+        <label>
+          Email
+        </label>
+      <input type="text" placeholder="example@gmail.com" name="mail">
+
+     </div>
+      <div class="inputcontainer">
+        <label>
+          Password
+        </label>
+      <input type="password" name="password" id="userpass" />
+      </div>
+      <button class="loginbtn"><p class="logintext">Login</p><div class="signup-pop" id="signpop">Signup?</div></button>
+     <button class="loginbtn" id="googleloginbtn">
+       <img src="Images/Google.png" class="icon">
+       Login with Google</button>
+       </form>
+  <div class="sponsors" id="spons">
+    <img src="Svg/brand-github.svg" class="iconspon">
+    
+    <img src="Svg/brand-figma.svg" class="iconspon">
+    
+   <img src="Svg/brand-paypal.svg" class="iconspon">
+   
+  <img src="Svg/brand-youtube.svg" class="iconspon">
+  
+  <img src="Svg/brand-reddit.svg" class="iconspon">
+
+</div>
+    </section>
+    
+  </div>
+  <script src="main.js"></script>
+<script src="Form.js"></script>
+</body>
+</html>

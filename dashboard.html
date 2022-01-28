@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechieLobby-dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="window">
+<section class="navbar" id="navbar">
+  <img src="Images/Label.png" class="icon" >
+  <div class= "labelnameWrapper"id = "labelnameWrapper">
+  <img src="Images/Lobby.png" class="labelname" id="labelname">
+  </div>
+  <button class="dropdownbtn" id="dropbtn">
+    <img src="Svg/layout-grid.svg">
+  </button>
+</section>
+
+<div class="flabtn notify">
+<img src="Images/bell.svg" class="icon" id="notification">
+</div>
+
+<div class="flabtn ppl" id="people">
+  <div class="container">
+    
+  <img src="Svg/Patprofile.svg" class="icon" id="pplicon">
+  <h1 class= "pplheader" id="pplheader">
+  Techie people
+  </h1>
+</div>
+</div>
+
+<div class="flabtn" id="message">
+  <div class="container">
+  <img src="Svg/message-dots.svg" class="icon" id="msgicon">
+  <h1 class="msgheader" id="msgheader">Techie Messenger</h1>
+  </div>
+  <div class="messages" id="messages">
+    hello
+  </div>
+</div>
+
+
+
+<div class="contentWrapper">
+   <div class="contents" id= "cont">
+     
+   </div>
+    <div class="details" id="det">
+      <div class="detWrapper">
+        Skill
+      <h3 id="skill" class="javaspt"></h3>
+      </div>
+      <div class="profile">
+        <img src="#" id="image">
+     <div class="name">
+       <h4 id="name"></h4>
+     </div>
+      </div>
+      <div class="detWrapper">
+        Level
+     <h3 class="level" id="level"></h3>
+      </div>
+    </div>
+  <!---tutorial--->
+  
+  <section class="tutorial" id="tutorial">
+    <div class="prevWrapper">
+      <div class="trend">Trending</div>
+    <video src="Video/Test.mp4" id="vidprev" controls>
+    </video>
+      <div class="prevdetails">
+        <h1>Javascript beginner tutorial</h1>
+        <button>Get started</button>
+      </div>
+    </div>
+  </section>
+  <!------------->
+  
+  </div>
+
+<section class="bottomnav">
+  <img src="Svg/home-2.svg" class="active" onclick="myhome()" id="homeicon">
+  <img src="Images/Tutorial.png" class="menuicon" onclick="tutorialWindow()" id="tuticon">
+  <img src="Images/code.svg" class="">
+  <img src="Svg/grid-pattern.svg" class="">
+</section>
+</section>
+<script src="components.js"></script>
+</body>
+
+</html>
